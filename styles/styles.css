@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.light-mode {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+.list-group-item.completed {
+    text-decoration: line-through;
+    background-color: #d4edda;
+}
+
+button {
+    cursor: pointer;
+}
